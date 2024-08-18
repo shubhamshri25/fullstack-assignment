@@ -14,7 +14,7 @@ app.get("/ping", (req, res) => {
 });
 
 // routes
-app.use("/cards", cardRoutes);
+app.use("/api/cards", cardRoutes);
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
 
